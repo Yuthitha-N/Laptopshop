@@ -1,4 +1,6 @@
 // app/image-urls/page.tsx
+"use client";
+
 import { useState } from "react";
 
 const TEMPLATE = `// lib/product-images.ts
