@@ -8,6 +8,7 @@ export interface Product {
   _id: string;
   name: string;
   brand: string;
+  category: "laptop" | "accessory";
   price: number;
   image: string;
   processor: string;
