@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Laptop placeholder image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09131f" />
+      <stop offset="100%" stop-color="#142a44" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#23b1ff" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="keyboard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" rx="40" />
+  <g opacity="0.16">
+    <circle cx="150" cy="120" r="100" fill="#38bdf8" />
+    <circle cx="690" cy="450" r="120" fill="#6366f1" />
+  </g>
+  <g transform="translate(120 140)">
+    <rect x="0" y="0" width="560" height="320" rx="28" fill="url(#screen)" />
+    <rect x="32" y="28" width="496" height="192" rx="16" fill="rgba(255,255,255,0.18)" />
+    <path d="M40 240h480v20a12 12 0 0 1-12 12H52a12 12 0 0 1-12-12v-20Z" fill="#0f1724" />
+    <rect x="28" y="188" width="544" height="24" rx="12" fill="rgba(255,255,255,0.06)" />
+    <rect x="104" y="54" width="120" height="16" rx="8" fill="rgba(255,255,255,0.4)" />
+    <rect x="104" y="84" width="320" height="18" rx="9" fill="rgba(255,255,255,0.25)" />
+    <rect x="104" y="112" width="260" height="18" rx="9" fill="rgba(255,255,255,0.16)" />
+    <rect x="104" y="144" width="380" height="18" rx="9" fill="rgba(255,255,255,0.1)" />
+    <rect x="72" y="266" width="456" height="22" rx="11" fill="rgba(255,255,255,0.08)" />
+    <rect x="100" y="304" width="24" height="20" rx="10" fill="rgba(255,255,255,0.08)" />
+    <rect x="140" y="304" width="24" height="20" rx="10" fill="rgba(255,255,255,0.08)" />
+    <rect x="180" y="304" width="24" height="20" rx="10" fill="rgba(255,255,255,0.08)" />
+    <rect x="240" y="304" width="94" height="20" rx="10" fill="rgba(255,255,255,0.06)" />
+    <rect x="364" y="304" width="94" height="20" rx="10" fill="rgba(255,255,255,0.06)" />
+  </g>
+  <g transform="translate(220 460)">
+    <rect x="0" y="0" width="360" height="18" rx="9" fill="#1e293b" />
+    <rect x="-20" y="-8" width="400" height="24" rx="12" fill="#111827" />
+  </g>
+  <text x="50%" y="95%" text-anchor="middle" fill="#e2e8f0" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" opacity="0.88">
+    Filled with generated laptop art
+  </text>
+</svg>
